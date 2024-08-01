@@ -30,7 +30,7 @@ Before starting, make sure you have the following programs installed:
    On Android Studio select "Open an existing Android Studio project".
    Navigate to the project directory and select it.
 
-5. ** Sync Gradle**
+5. **Sync Gradle**
    Android Studio should automatically start syncing the project. If it doesn’t, you can do it manually by selecting File > Sync Project with Gradle Files.
 
 ## Running the Application
