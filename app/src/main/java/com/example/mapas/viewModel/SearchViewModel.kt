@@ -29,7 +29,7 @@ class SearchViewModel: ViewModel() {
 
     fun getLocation(search: String) {
         viewModelScope.launch {
-            val apiKey = "API_KEY"
+            val apiKey = <API_KEY>
             val url = "https://maps.googleapis.com/maps/api/geocode/json?address=$search&key=$apiKey"
 
             val response = withContext(Dispatchers.IO) {
